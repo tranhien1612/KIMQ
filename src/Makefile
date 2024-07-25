@@ -1,5 +1,5 @@
 CXX=g++ #CC=gcc
-CXXFLAGS = -g -Wall
+CXXFLAGS = -g -Wall -Wl,-rpath=/home/origin/aarch64 #CXXFLAGS = -g -Wall
 INCLAGS = -I./include #-I/home/origin/include
 
 LDFLAGS = -L./aarch64 #-I/home/origin/aarch64
